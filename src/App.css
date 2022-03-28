@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+* {
+  margin: 0px;
+  padding: 0%;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #f1f1f1;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tms_logo {
+  width: 100px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#infoHeader {
+  background-color: #3880b5;
+  padding: 0%;
+}
+#infoHeader li {
+  margin: 0;
+  padding: 0px;
+}
+#infoHeader li a {
   color: white;
+  margin: 0px;
+  padding: 5px 10px;
+  font-size: 14px;
 }
-
-.App-link {
-  color: #61dafb;
+.titleHeader {
+  text-align: center;
+  padding: 10px 0px 0px;
+  text-transform: capitalize;
+  color: #f0c20c;
+  font-weight: 600;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#brandName {
+  color: #6495ed;
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  margin-right: 10px;
+  text-shadow: 1px -1px 2px #30405b;
+}
+.NavBar {
+  padding: 0%;
+  background-color: #62b539;
+}
+.NavBar .nav-item {
+  margin: 0px 10px;
+}
+.NavBar .nav-item .nav-link {
+  color: #fff;
+  font-weight: 500;
+}
+.footer {
+  background-color: #2e2e2e;
+  position: fixed;
+  bottom: 0px;
+  color: #f1f1f1;
+}
+.footer h5 {
+  color: #62b539;
+  text-align: center;
 }
