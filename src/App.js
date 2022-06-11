@@ -1,18 +1,32 @@
-// import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'jquery/dist/jquery.min';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 
-import 'bootstrap/dist/css/bootstrap.css';
-import 'jquery';
-import 'bootstrap/dist/js/bootstrap.js';
-import React from 'react';
 import './App.css';
-import TMSHeader from './components/shared/TMSHeader';
-function App() {
-  return (
-    <div className="App">
-      <TMSHeader />
-    </div>
-  );
+import React, { Component } from 'react'
+import HomePage from './components/mainPage/HomePage';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import About from './components/shared/About';
+import Packages from './components/packages/Packages';
+import LoginPage from './components/Login/LoginPage';
+
+
+export default class App extends Component {
+  render() {
+    return (
+      <>
+        <Router>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/packages" element={<Packages />} />
+            <Route path="/login" element={<LoginPage />} />
+          </Routes>
+        </Router>
+
+      </>
+    )
+  }
 }
 
-export default App;
 

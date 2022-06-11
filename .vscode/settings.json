@@ -1,15 +1,15 @@
 {
-    //setting for react workspace
-    // setting to consider all all files in src as jsx
-    "react": {
-        "jsx": {
-            "syntax": "react"
-        }
-    },
-    "javascript": {
-        "jsx": {
-            "syntax": "javascript"
-        }
-    },
-
+  //setting for react workspace
+  // setting to consider all all files in src as jsx
+  "react": {
+    "jsx": {
+      "syntax": "react"
+    }
+  },
+  "javascript": {
+    "jsx": {
+      "syntax": "javascript"
+    }
+  },
+  "liveServer.settings.port": 5502
 }

@@ -1,5 +1,5 @@
 import React from "react";
-
+import { FaUserCircle } from "react-icons/fa";
 function TMSFooter() {
   return (
     <div className="container-fluid footer">
@@ -39,6 +39,8 @@ function TMSFooter() {
               </div>
               <div className="col-3 offset-1 section-03">
                 <h5>Keep in Tocuh with us</h5>
+                <FaUserCircle />
+
                 <hr />
               </div>
             </div>
