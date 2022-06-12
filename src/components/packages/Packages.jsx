@@ -35,13 +35,6 @@ var Packages = () => {
           {packagesList.map((p) => (
             <>
               <PackageCard key={p.PackageId} packageObj={p} />
-              <PackageCard key={4} packageObj={p} />
-              <PackageCard key={5} packageObj={p} />
-              <PackageCard key={6} packageObj={p} />
-              <PackageCard key={7} packageObj={p} />
-              <PackageCard key={8} packageObj={p} />
-              <PackageCard key={9} packageObj={p} />
-              <PackageCard key={10} packageObj={p} />
             </>
           ))}
         </div>

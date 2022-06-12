@@ -9,6 +9,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import About from './components/shared/About';
 import Packages from './components/packages/Packages';
 import LoginPage from './components/Login/LoginPage';
+import Contact from './components/contact/Contact';
+
 
 
 export default class App extends Component {
@@ -19,6 +21,7 @@ export default class App extends Component {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="/packages" element={<Packages />} />
             <Route path="/login" element={<LoginPage />} />
           </Routes>
@@ -28,5 +31,3 @@ export default class App extends Component {
     )
   }
 }
-
-
