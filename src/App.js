@@ -10,7 +10,9 @@ import About from './components/shared/About';
 import Packages from './components/packages/Packages';
 import LoginPage from './components/Login/LoginPage';
 import Contact from './components/contact/Contact';
-
+import Vehicles from './components/vehicle/Vehicles';
+import Hotels from './components/hotel/Hotels';
+import Privacy from './components/privacy/privacy';
 
 
 export default class App extends Component {
@@ -23,6 +25,9 @@ export default class App extends Component {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/packages" element={<Packages />} />
+            <Route path="/vehicles" element={<Vehicles />} />
+            <Route path="/hotels" element={<Hotels />} />
+            <Route path="/privacy" element={<Privacy />} />
             <Route path="/login" element={<LoginPage />} />
           </Routes>
         </Router>
