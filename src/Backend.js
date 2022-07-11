@@ -1,0 +1,5 @@
+const API = process.env.TMS_BACKEND_API;
+const TMS_BACKEND_AUTH_TOKEN = process.env.TMS_BACKEND_AUTH_TOKEN;
+
+export { API, TMS_BACKEND_AUTH_TOKEN };
+
