@@ -11,8 +11,6 @@ import Packages from './components/packages/Packages';
 import LoginPage from './components/Login/LoginPage';
 import Contact from './components/contact/Contact';
 
-
-
 export default class App extends Component {
   render() {
     return (
@@ -23,6 +21,9 @@ export default class App extends Component {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/packages" element={<Packages />} />
+            <Route path="/vehicles" element={<Vehicles />} />
+            <Route path="/hotels" element={<Hotels />} />
+            <Route path="/privacy" element={<Privacy />} />
             <Route path="/login" element={<LoginPage />} />
           </Routes>
         </Router>
@@ -31,5 +32,3 @@ export default class App extends Component {
     )
   }
 }
-
-

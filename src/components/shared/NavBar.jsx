@@ -19,19 +19,30 @@ function NavBar(props) {
             </Link>
           </li>
           <li className="nav-item">
+            <Link className="nav-link" to="/vehicles">
+              Vehicles
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/hotels">
+              Hotels
+            </Link>
+          </li>
+          <li className="nav-item">
             <Link className="nav-link" to="/about">
               About US
             </Link>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="/contact">
+            <Link className="nav-link" to="/contact">
               Contact US
-            </a>
+            </Link>
           </li>
 
           <li className="nav-item">
-            <a className="nav-link" href="/#">
-              Privact Policy
+            <a className="nav-link" href="/privacy">
+              Privacy Policy
             </a>
           </li>
         </ul>
