@@ -12,7 +12,7 @@ function Slider() {
         let url = "http://127.0.0.1:8000/tms_api/manage_slider";
         const result = await axios.get(url, {
           headers: {
-            Authorization: "Token 3e6d228ed10d57a2061861cb109011aca43fb122",
+            Authorization: "Token 23fd4d43cc151db137ef652d78f9af390c2a1f91",
           },
         });
         setSliderImages(result.data);

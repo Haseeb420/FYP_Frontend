@@ -34,6 +34,7 @@ function NavBar(props) {
             </Link>
           </li>
           <li className="nav-item">
+            <a className="nav-link" href="/contact">
             <Link className="nav-link" to="/contact">
               Contact US
             </Link>
